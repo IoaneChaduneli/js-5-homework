@@ -100,11 +100,14 @@ let range=[-1,-2,-3,4].some((element)=> element >0);
 console.log(range);
 
 // homework 12
-let ar=[23,45,32,5,87,7,3,98].sort((x,y)=> y-x);
-console.log(ar);
+let ar=[23,45,32,5,87,7,3,98];
+let sortArray1=ar.sort((x,y)=> y-x)[ar.length-1];
+
+console.log(sortArray1);
 
 // homework 13
 let range2=[1,2,3,4,5];
 range2.splice(3,0,'a','b','c');
 console.log(range2);
+
 
